@@ -1,0 +1,15 @@
+**/bin/*
+**/obj/*
+**/node_modules/*
+*.~lock.*
+*.aux
+*.out
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.toc
+*.bbl
+*.blg
