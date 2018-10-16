@@ -1,5 +1,42 @@
-/* ______________________________ ORDEN DE CHAT ______________________________ */
+/* ______________________________ TABLERO DE CHAT ______________________________ */
 
+#tabchat {
+    display: grid;
+    width:350px;
+    height:350px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    margin-top: 5px;
+    margin-left:5px;
+     
+    background-color: rgb(255, 255, 255);
+    color:rgb(67, 70, 65);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-wrap:break-word;
+    font-size: 14px;
+    font-family: "Baloo Bhaina";
+    word-spacing: 2pt;
+}
+
+#tabchat>div{
+    text-align: center;
+}
+
+#textBox{
+    width:350px;
+    height:50px;
+    resize: none;
+    color:rgb(0, 0, 0);
+    border:1px solid rgb(0, 0, 0);
+    background-color: #e0e0e0;
+    margin-top:0px;
+    margin-left:5px;
+}
+
+#Chat{
+    text-align: center;
+}
 
 /* _____________________________ BOTONES Y ANIMACIONES _____________________________ */
 
@@ -21,7 +58,7 @@ button:focus{outline: 0;}
     padding: 20px 40px 20px 40px;
 }
 
-.SendButton{
+#SendButton{
     padding: 20px;
     color: white;
     border: 2px solid white;
@@ -35,7 +72,7 @@ button:focus{outline: 0;}
 }
 button:focus{outline: 0;}
 
-.SendButton:hover{
+#SendButton:hover{
     padding: 20px 40px 20px 40px;
 }
 
@@ -86,9 +123,9 @@ body{
     background-size: 100% 100%;
 
     border-top: 20px solid white;
-    -webkit-border-image: url(?raw=true)60 round; /*Safari*/
-    -o-border-image: url(?raw=true)60 round; /*Opera*/
-    border-image: url(?raw=true) 60 round;
+    -webkit-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Safari*/
+    -o-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Opera*/
+    border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true) 60 round;
     -moz-background-clip: padding;
     -webkit-background-clip: padding;
     background-clip: padding-box;

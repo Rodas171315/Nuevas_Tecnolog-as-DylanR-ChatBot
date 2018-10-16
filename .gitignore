@@ -13,3 +13,5 @@
 *.toc
 *.bbl
 *.blg
+*.vs
+*.gitattributes
