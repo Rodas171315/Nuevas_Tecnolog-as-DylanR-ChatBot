@@ -1,7 +1,7 @@
 # ChatBot #
 **Version 0.0.01**
 
-## Author
+## Authors
 * **Dylan Gabriel Rodas Samayoa** - rodas171315@unis.edu.gt
 
 # Proyecto Final #
@@ -9,7 +9,7 @@
 - Facultad de Ingeniería
 - Ing. en Sistemas
 - Nuevas Tecnologías
-- Fecha de entrega: Día de Mes, 2018 - 00:00am
+- Fecha de entrega: 8 de Noviembre, 2018 - 09:30am
 
 ---
 ## Extras

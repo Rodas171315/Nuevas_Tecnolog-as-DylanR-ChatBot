@@ -1,0 +1,18 @@
+{
+    "name": "TacoBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3979/api/messages",
+            "id": "8c395330-e1fe-11e8-84f2-1fd835a9ac14",
+            "name": "http://localhost:3979/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\Dylan\\Desktop\\Nuevas_Tecnologias-DylanR-ChatBot\\ChatBot Azure\\TacoBotSolution\\TacoBotProject\\TacoBot.bot"
+}
