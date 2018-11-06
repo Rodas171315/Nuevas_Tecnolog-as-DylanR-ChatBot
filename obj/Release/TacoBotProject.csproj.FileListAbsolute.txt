@@ -1,0 +1,45 @@
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Bot Application.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Bot Application.pdb
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Autofac.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Chronic.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Builder.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Connector.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Newtonsoft.Json.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Net.Http.Formatting.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Web.Http.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Web.Http.WebHost.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Autofac.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Builder.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.Bot.Connector.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Newtonsoft.Json.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Net.Http.Formatting.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Web.Http.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\System.Web.Http.WebHost.xml
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\obj\Release\TacoBotProject.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\obj\Release\TacoBotProject.csproj.CopyComplete
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\obj\Release\Bot Application.dll
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\obj\Release\Bot Application.pdb
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\bin\Bot Application.dll.config
+C:\Users\Dylan\Desktop\Nuevas_Tecnologias-DylanR-ChatBot\ChatBot Azure\TacoBotSolution\TacoBotProject\obj\Release\TacoBotProject.csprojAssemblyReference.cache
