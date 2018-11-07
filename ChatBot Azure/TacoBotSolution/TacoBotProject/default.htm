@@ -1,12 +1,60 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <title>
+        TacoBot
+    </title>
+
+    <link href="BotStyle.css" rel="stylesheet">
+    <link rel="icon" href="Resource/Imagen/Taco-Cartoon.png">
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- FONTS -->
+    <link herf="https://fonts.googleapis.com/css?family=Maven+Pro|Bungee+Inline|Catamaran:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mallanna|Baloo+Bhaina|Montserrat+Alternates" rel="stylesheet">
+
 </head>
-<body style="font-family:'Segoe UI'">
+
+<body style="font-family:'Baloo Bhaina'">
+
+    <div id="encabezado"><img src="Resource/Imagen/TacoBot-logo.png"></div>
     <h1>TacoBotProject</h1>
-    <p>Describe your bot here and your terms of use etc.</p>
-    <p>Visit <a href="https://www.botframework.com/">Bot Framework</a> to register your bot. When you register it, remember to set your bot's endpoint to <pre>https://<i>your_bots_hostname</i>/api/messages</pre></p>
+    <p>El bot para buscar empleo e interactuar con reclutadores.</p>
+    <p>Visita <a href="https://www.facebook.com/TacoBot-2264436180455233/">TacoBot en Facebook</a> para empezar a interactuar.</p>
+    <h2>Tecnología</h2>
+    <p>TacoBot está escrito en C# y se conecta a una instancia de DataBase para guardar oportunidades de trabajo.</p>
+    <p>Utiliza el Microsoft Bot Framework de código abierto para crear diálogos y establecer las conexiones con un interpretador de lenguaje natural como LUIS y QnA Maker.</p>
+    <p>La estructura de TacoBot se encuentra completamente alojada en Azure, que ofrece un nivel gratuito y permite interactuar con casi cualquier aplicación de mensajería.</p>
+    <p>Cuando está en ejecucion, actúa conforme a una Web de Azure, mientras que en un entorno local actúa con el Microsoft Bot Framework Emulator donde puede hablar con TacoBot desde el emulador y guardar los datos en una instancia local del DB.</p>
+
+    <!--<div>Logo made with <a href="https://www.designevo.com/en/" title="Free Online Logo Maker">DesignEvo</a></div>-->
+    <div class="container-fluid pie-de-pagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5"><img class="copyright" id="mylogo" src="Resource/Imagen/Taco-Cartoon.png" height="150" width="200"> <p class="copyright"> &#xa9; Dylan Rodas - Mario Pons <br> Nuevas Tecnologias <br> Guatemala, Guatemala </p> </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3 social">
+                    <center>
+                        Redes Sociales: <br>
+                        &nbsp;
+                        <a href="https://www.facebook.com/dylan.rodas.512" target="blank"><img src="Resource/Social/facebook.png" height="40" width="40"></a>
+                        &nbsp;
+                        <a href="https://twitter.com/ManiacalKnight9" target="blank"><img src="Resource/Social/twitter.png" height="40" width="40"></a>
+                        &nbsp;
+                        <a href="https://www.instagram.com/maniacalknight9/" target="blank"><img src="Resource/Social/instagram.png" height="40" width="40"></a>
+                        &nbsp;
+                        <a href="https://github.com/Rodas171315" target="blank"><img src="Resource/Social/Github.png" height="40" width="40"></a>
+                        &nbsp;
+                        <a href="mailto:dylang512@hotmail.com" target="blank"><img src="Resource/Social/correo-outlook.png" height="40" width="40"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

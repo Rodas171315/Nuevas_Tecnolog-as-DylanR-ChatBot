@@ -1,0 +1,52 @@
+/* _______________________________________ CUERPO Y ENCABEZADO _______________________________________ */
+
+body{
+    background: -webkit-linear-gradient(#10691c, rgb(52, 140, 40), #35c635);
+    font-family: "Baloo Bhaina";
+}
+
+#encabezado{
+    height: 20vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#encabezado>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@font-face{
+    font-family: Halo;
+    src: url(Resource/Fonts/Halo.ttf);
+}
+
+/* __________________________________________ PIE DE PAGINA __________________________________________ */
+
+.pie-de-pagina{
+    color: white;
+    font-family: "Baloo Bhaina";
+    font-size: 17px;
+    padding: 40px;
+    background-image: url(https://github.com/Rodas171315/Informatica_2-DylanR-Connect_4/blob/master/Connect-4/Resource/navbar.png?raw=true);
+    background-size: 100% 100%;
+
+    border-top: 20px solid white;
+    -webkit-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Safari*/
+    -o-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Opera*/
+    border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true) 60 round;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    margin-top: 20px;
+}
+
+.copyright{
+    display: inline-block;
+    padding: 10px;
+}
+
+#mylogo{
+    margin-bottom: 4%;
+}
