@@ -23,6 +23,14 @@ namespace TacoBotProject.Dialogs
             await context.PostAsync("¿En qué más te puedo ayudar?");
         }
 
+        [LuisIntent("Saludos")]
+        public async Task Saludos(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("Hola! Soy TacoBot el reclutador o tu buscador de empleos.");
+            await Task.Delay(3000);
+            await context.PostAsync("¿Cómo puedo ayudarte?");
+        }
+
         [LuisIntent("Reclamos")]
         public async Task Reclamos(IDialogContext context, LuisResult result)
         {
@@ -33,7 +41,7 @@ namespace TacoBotProject.Dialogs
 
             var reply = context.MakeMessage();
             reply.Attachments.Add(GetCard());
-            await Task.Delay(3000);
+            await Task.Delay(2000);
             await context.PostAsync(reply);
         }
 

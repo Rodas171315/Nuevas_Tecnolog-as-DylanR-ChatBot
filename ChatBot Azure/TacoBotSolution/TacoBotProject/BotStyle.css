@@ -29,13 +29,13 @@ body{
     font-family: "Baloo Bhaina";
     font-size: 17px;
     padding: 40px;
-    background-image: url(https://github.com/Rodas171315/Informatica_2-DylanR-Connect_4/blob/master/Connect-4/Resource/navbar.png?raw=true);
+    background-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/navbar.png?raw=true);
     background-size: 100% 100%;
 
     border-top: 20px solid white;
-    -webkit-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Safari*/
-    -o-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true)60 round; /*Opera*/
-    border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Web/Resource/border-top.png?raw=true) 60 round;
+    -webkit-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/border-top.png?raw=true)60 round; /*Safari*/
+    -o-border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/border-top.png?raw=true)60 round; /*Opera*/
+    border-image: url(https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/border-top.png?raw=true) 60 round;
     -moz-background-clip: padding;
     -webkit-background-clip: padding;
     background-clip: padding-box;

@@ -18,7 +18,8 @@ namespace TacoBotProject
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.LuisServiceDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.QnAMakerDialog());
+                //await Conversation.SendAsync(activity, () => new Dialogs.LuisServiceDialog());
             }
             else
             {
