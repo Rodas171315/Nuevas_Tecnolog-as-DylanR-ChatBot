@@ -1,5 +1,5 @@
 # ChatBot #
-**Version 0.0.01**
+**Version 0.2**
 
 ## Authors
 * **Dylan Gabriel Rodas Samayoa** - rodas171315@unis.edu.gt
@@ -14,7 +14,7 @@
 
 ---
 ## Extras
-* **--:** --.
-* **--:** --.
+* **LUIS:** Como un servicio de API basado en la nube que aplica inteligencia de aprendizaje automático personalizado a una conversación o un texto de lenguaje natural de un usuario para predecir el significado global y extraer información pertinente y detallada.
+* **Qna Maker:** Como un servicio de base de conocimiento (KB) de preguntas y respuestas que aplica inteligencia de aprendizaje automático personalizado a una pregunta formulada en lenguaje natural del usuario para determinar la mejor respuesta.
 * **--:** --.
 ---
