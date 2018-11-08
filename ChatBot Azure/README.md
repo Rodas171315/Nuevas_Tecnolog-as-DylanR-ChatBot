@@ -1,5 +1,5 @@
 # ChatBot #
-**Version 0.2**
+**Version 0.99**
 
 ## Authors
 * **Dylan Gabriel Rodas Samayoa** - rodas171315@unis.edu.gt
