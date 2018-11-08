@@ -164,7 +164,7 @@ namespace TacoBotProject.Dialogs
             {
                 Title = "Soy un Reclutador",
                 Subtitle = "Opciones",
-                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/Resource/Imagen/reclutador.jpg") },
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/reclutador.jpg") },
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.PostBack, "Buscar trabajadores", value: "Buscar trabajadores"),
@@ -179,7 +179,7 @@ namespace TacoBotProject.Dialogs
             {
                 Title = "Soy un Trabajador",
                 Subtitle = "Opciones",
-                Images = new List<CardImage> { new CardImage("https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/Resource/Imagen/worker.jpg?raw=true") },
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/worker.jpg") },
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.PostBack, "Buscar empleo", value: "Buscar empleo"),
@@ -194,7 +194,7 @@ namespace TacoBotProject.Dialogs
             {
                 Title = "Probar TacoBot",
                 Subtitle = "Opciones",
-                Images = new List<CardImage> { new CardImage("https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/Resource/Imagen/try.jpg?raw=true") },
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/try.jpg") },
                 Buttons = new List<CardAction> { new CardAction(ActionTypes.PostBack, "Probar el bot", value: "Probar el bot.") }
             };
             return heroCard.ToAttachment();
@@ -205,7 +205,7 @@ namespace TacoBotProject.Dialogs
             {
                 Title = "Sugerencias",
                 Subtitle = "Opciones",
-                Images = new List<CardImage> { new CardImage("https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/Resource/Imagen/sugerencias.png?raw=true") },
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/sugerencias.png") },
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.OpenUrl, "Conoce mi código fuente", value: "https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot"),
@@ -221,7 +221,7 @@ namespace TacoBotProject.Dialogs
             {
                 Title = "Contactar",
                 Subtitle = "Opciones",
-                Images = new List<CardImage> { new CardImage("https://github.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/blob/master/Resource/Imagen/contacto.jpg?raw=true") },
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/contacto.jpg") },
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.OpenUrl, "Facebook", value: "https://www.facebook.com/TacoBot-2264436180455233"),
