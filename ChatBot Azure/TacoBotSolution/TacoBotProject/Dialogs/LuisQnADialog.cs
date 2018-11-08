@@ -278,7 +278,7 @@ namespace TacoBotProject.Dialogs
             var Card = new ThumbnailCard
             {
                 Title = "Docencia Universitaria",
-                Subtitle = "Opciones",
+                Subtitle = "Universidad del Valle de Guatemala",
                 Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/uvg.jpg") },
                 Buttons = new List<CardAction>
                 {
@@ -293,7 +293,7 @@ namespace TacoBotProject.Dialogs
             var Card = new ThumbnailCard
             {
                 Title = "Programador C++",
-                Subtitle = "Opciones",
+                Subtitle = "Tigo Guatemala",
                 Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/programmer.jpg") },
                 Buttons = new List<CardAction>
                 {
@@ -308,7 +308,7 @@ namespace TacoBotProject.Dialogs
             var Card = new ThumbnailCard
             {
                 Title = "Soporte y Desarrollo de Sistemas",
-                Subtitle = "Opciones",
+                Subtitle = "BAC Credomatic",
                 Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/BAC.png") },
                 Buttons = new List<CardAction>
                 {
@@ -329,7 +329,7 @@ namespace TacoBotProject.Dialogs
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
-                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:juan3164@outlook.com")
+                    new CardAction(ActionTypes.OpenUrl, "Contactar", value: "mailto:juan3164@outlook.com")
                 }
             };
             return Card.ToAttachment();
@@ -344,7 +344,7 @@ namespace TacoBotProject.Dialogs
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
-                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:lucia7946@gmail.com")
+                    new CardAction(ActionTypes.OpenUrl, "Contactar", value: "mailto:lucia7946@gmail.com")
                 }
             };
             return Card.ToAttachment();
@@ -359,7 +359,7 @@ namespace TacoBotProject.Dialogs
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
-                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:mario-ferpons@hotmail.com")
+                    new CardAction(ActionTypes.OpenUrl, "Contactar", value: "mailto:mario-ferpons@hotmail.com")
                 }
             };
             return Card.ToAttachment();
