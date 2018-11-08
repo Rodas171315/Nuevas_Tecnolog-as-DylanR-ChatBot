@@ -40,9 +40,20 @@ namespace TacoBotProject.Dialogs
         [LuisIntent("BuscarEmpleo")]
         public async Task BuscarEmpleo(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(".");
+            await context.PostAsync("Analizando perfil...");
+            await Task.Delay(1000);
+            await context.PostAsync("Buscando empleos...");
+            await Task.Delay(1000);
+            await context.PostAsync("Jumm... Creo que este podría ser una buena opción para ti...");
             await Task.Delay(2000);
-            await context.PostAsync(".");
+            await context.PostAsync("Según tus cualidades, te recomiento los siguientes puestos disponibles:");
+
+            var reply = context.MakeMessage();
+            reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+            reply.Attachments = GetJobsCards();
+            await context.PostAsync(reply);
+            await Task.Delay(2000);
+            await context.PostAsync("¿En qué más te puedo ayudar?");
         }
         [LuisIntent("BuscarTrabajadores")]
         public async Task BuscarTrabajadores(IDialogContext context, LuisResult result)
@@ -54,16 +65,16 @@ namespace TacoBotProject.Dialogs
         [LuisIntent("GuardarEmpleo")]
         public async Task GuardarEmpleo(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(".");
+            await context.PostAsync("Está opción estará disponible proximamente.");
             await Task.Delay(2000);
-            await context.PostAsync(".");
+            await context.PostAsync("¿En qué más te puedo ayudar?");
         }
         [LuisIntent("GuardarCV")]
         public async Task GuardarCV(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(".");
+            await context.PostAsync("Está opción estará disponible proximamente.");
             await Task.Delay(2000);
-            await context.PostAsync(".");
+            await context.PostAsync("¿En qué más te puedo ayudar?");
         }
         [LuisIntent("ProbarBot")]
         public async Task ProbarBot(IDialogContext context, LuisResult result)
@@ -135,6 +146,16 @@ namespace TacoBotProject.Dialogs
                 GetTryCard(),
                 GetTacoBotCard(),
                 GetContactoCard()
+            };
+        }
+
+        private IList<Attachment> GetJobsCards()
+        {
+            return new List<Attachment>()
+            {
+                GetUVGCard(),
+                GetProgrammerCard(),
+                GetBACCard()
             };
         }
 
@@ -232,5 +253,50 @@ namespace TacoBotProject.Dialogs
             return heroCard.ToAttachment();
         }
 
+        private Attachment GetUVGCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Docencia Universitaria",
+                Subtitle = "Opciones",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/uvg.jpg") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "Solicitar empleo", value: "http://web.uvg.gt/nosotros/trabaja-en-uvg/"),
+                    new CardAction(ActionTypes.OpenUrl, "Información de contacto", value: "mailto:info@uvg.edu.gt")
+                }
+            }; 
+            return Card.ToAttachment();
+        }
+        private Attachment GetProgrammerCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Programador C++",
+                Subtitle = "Opciones",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/programmer.jpg") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "Solicitar empleo", value: "https://www.reclutamiento.tigo.com.gt/#/login"),
+                    new CardAction(ActionTypes.OpenUrl, "Informacion de contacto", value: "https://www.tigo.com.gt/atencion-al-cliente/contacto")
+                }
+            };
+            return Card.ToAttachment();
+        }
+        private Attachment GetBACCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Soporte y Desarrollo de Sistemas",
+                Subtitle = "Opciones",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/BAC.png") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "Solicitar empleo", value: "https://www.baccredomatic.com/es-gt/nuestra-empresa/trabaje-con-nosotros"),
+                    new CardAction(ActionTypes.OpenUrl, "Informacion de contacto", value: "https://empleosbaccredomatic.com/contacto")
+                }
+            };
+            return Card.ToAttachment();
+        }
     }
 }
