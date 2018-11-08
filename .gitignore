@@ -2,8 +2,7 @@
 **/obj/*
 **/node_modules/*
 **/packages/*
-.vs/
-
+**/vs/*
 *.pubxml.user
 
 

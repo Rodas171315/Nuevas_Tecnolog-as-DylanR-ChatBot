@@ -58,9 +58,19 @@ namespace TacoBotProject.Dialogs
         [LuisIntent("BuscarTrabajadores")]
         public async Task BuscarTrabajadores(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(".");
+            await context.PostAsync("Recopilando información de usuarios...");
+            await Task.Delay(1000);
+            await context.PostAsync("Seleccionando usuarios destacados...");
+            await Task.Delay(1000);
+            await context.PostAsync("Según tus requisitos, te recomiento los siguientes trabajadores disponibles:");
             await Task.Delay(2000);
-            await context.PostAsync(".");
+
+            var reply = context.MakeMessage();
+            reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+            reply.Attachments = GetWorkersCards();
+            await context.PostAsync(reply);
+            await Task.Delay(2000);
+            await context.PostAsync("¿En qué más te puedo ayudar?");
         }
         [LuisIntent("GuardarEmpleo")]
         public async Task GuardarEmpleo(IDialogContext context, LuisResult result)
@@ -156,6 +166,16 @@ namespace TacoBotProject.Dialogs
                 GetUVGCard(),
                 GetProgrammerCard(),
                 GetBACCard()
+            };
+        }
+
+        private IList<Attachment> GetWorkersCards()
+        {
+            return new List<Attachment>()
+            {
+                GetJuanCard(),
+                GetLuciaCard(),
+                GetMarioCard()
             };
         }
 
@@ -294,6 +314,52 @@ namespace TacoBotProject.Dialogs
                 {
                     new CardAction(ActionTypes.OpenUrl, "Solicitar empleo", value: "https://www.baccredomatic.com/es-gt/nuestra-empresa/trabaje-con-nosotros"),
                     new CardAction(ActionTypes.OpenUrl, "Informacion de contacto", value: "https://empleosbaccredomatic.com/contacto")
+                }
+            };
+            return Card.ToAttachment();
+        }
+
+        private Attachment GetJuanCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Finanzas, Contabilidad y Contraloría",
+                Subtitle = "Juan Pablo Villatoro Gonzales",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/juan.jpg") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
+                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:juan3164@outlook.com")
+                }
+            };
+            return Card.ToAttachment();
+        }
+        private Attachment GetLuciaCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Mercadeo, Diseño y Publicidad",
+                Subtitle = "Diana Lucía Figueroa Rivas",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/lucy.jpg") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
+                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:lucia7946@gmail.com")
+                }
+            };
+            return Card.ToAttachment();
+        }
+        private Attachment GetMarioCard()
+        {
+            var Card = new ThumbnailCard
+            {
+                Title = "Transformación e Innovación Digital",
+                Subtitle = "Mario Fernando Pons Fajardo",
+                Images = new List<CardImage> { new CardImage("https://raw.githubusercontent.com/Rodas171315/Nuevas_Tecnologias-DylanR-ChatBot/master/ChatBot%20Azure/TacoBotSolution/TacoBotProject/Resource/Imagen/mario.jpg") },
+                Buttons = new List<CardAction>
+                {
+                    new CardAction(ActionTypes.OpenUrl, "LinkedIn", value: "https://gt.linkedin.com/"),
+                    new CardAction(ActionTypes.OpenUrl, "Contratar", value: "mailto:mario-ferpons@hotmail.com")
                 }
             };
             return Card.ToAttachment();
