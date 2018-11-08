@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoBotProject", "TacoBotProject\TacoBotProject.csproj", "{F87D2E2A-4B23-4432-886D-2E51E255E66C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoBotProject", "TacoBotProject.csproj", "{F87D2E2A-4B23-4432-886D-2E51E255E66C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4ECD7A51-BA54-43C8-9733-B440721E6D8C}
+		SolutionGuid = {8B719A33-0DD3-4967-9C8A-917005EEFFE6}
 	EndGlobalSection
 EndGlobal
